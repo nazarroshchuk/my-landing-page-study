@@ -1,7 +1,5 @@
 
 
-
-
 @media screen and (max-width: 640px) {
 header nav {
 	display: flex;
@@ -16,13 +14,15 @@ header nav .menu {
 }
 
 main .baner {
-	display: flex;
-	flex-direction: column;
-}
-main {
-    flex-basis: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 
+@media screen and (max-width: 375px) {
+	main .baner .baner-text {
+		grid-template-columns: 1fr;
+		margin:20px;
+	}
 
 }
