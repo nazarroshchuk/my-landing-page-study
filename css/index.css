@@ -1,0 +1,129 @@
+
+@import (href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet");
+
+:root {
+    font-family: 'Alegreya Sans', sans-serif;
+    --main-color: black;
+    scroll-behavior: smooth;
+    --hover-color: red;
+    }
+
+body {
+   max-width: 1100px;
+   margin: auto;
+ }
+
+ h1, h2, h3, p, div, nav, header, footer {
+    margin: 0;
+    padding: 0;
+
+}
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+header nav .logo {
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin-left: 20px;
+
+}
+
+header nav .menu {
+   display: flex;
+   justify-content: space-around;
+   list-style-type: none;
+   padding: 0px;
+ }
+
+header nav .menu {
+		flex: 1;
+	}
+
+
+header {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+header nav .menu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--main-color);
+}
+
+header nav .menu a:hover {
+	border-bottom: 2px solid var(--hover-color);
+}
+
+main .baner {
+	display: flex;
+	background-color: #fafafa;
+	height: 500px;
+}
+
+main .baner-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	margin: 50px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+main .baner-text p {
+	text-align: justify;
+	margin:50px;
+
+}
+
+main .baner-text input{
+	box-shadow: 0px 6px 6px -4px #474747;
+	background-color:#424242;
+	border-radius:28px;
+	border:1px solid #b3b3b3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	width: 200px;
+}
+main .baner-text input:hover {
+	background-color:#636363;
+}
+main .baner-text input:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

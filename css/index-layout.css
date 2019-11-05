@@ -1,0 +1,28 @@
+
+
+
+
+@media screen and (max-width: 640px) {
+header nav {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+header nav .menu {
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+main .baner {
+	display: flex;
+	flex-direction: column;
+}
+main {
+    flex-basis: 100%;
+}
+
+
+
+}
