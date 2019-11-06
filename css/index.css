@@ -30,6 +30,11 @@ header nav .logo {
 	margin-left: 20px;
 
 }
+header nav .logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 header nav .menu {
    display: flex;

@@ -16,6 +16,11 @@ header nav .menu {
 main .baner {
 	display: grid;
 	grid-template-columns: 1fr;
+	font-size: 80%;
+}
+main .baner-text input{
+	font-size:90%;
+	width: 50%;
 }
 
 
@@ -23,6 +28,11 @@ main .baner {
 	main .baner .baner-text {
 		grid-template-columns: 1fr;
 		margin:20px;
+		font-size: 70%;
 	}
+header nav .menu {
+    font-size: 70%;
+}
+
 
 }
