@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
 header nav {
 	display: flex;
 	justify-content: center;
@@ -22,17 +22,41 @@ main .baner-text input{
 	font-size:90%;
 	width: 50%;
 }
+main .about {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 80%;
+}
 
-
-@media screen and (max-width: 375px) {
-	main .baner .baner-text {
-		grid-template-columns: 1fr;
-		margin:20px;
-		font-size: 70%;
-	}
-header nav .menu {
-    font-size: 70%;
+main .about .about-me {
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 
+}
+}
+
+
+@media screen and (max-width: 375px) {
+header nav .menu {
+    font-size: 70%;
+ }
+main .baner .baner-text {
+		grid-template-columns: 1fr;
+		margin:20px;
+		font-size: 70%;
+}
+
+main .about {
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
+
+main .about .about-me {
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
 }

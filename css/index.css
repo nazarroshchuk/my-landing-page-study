@@ -1,15 +1,15 @@
 
-@import (href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet");
+@import (link href="https://fonts.googleapis.com/css?family=Barlow&display=swap");
 
 :root {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Barlow', sans-serif;
     --main-color: black;
     scroll-behavior: smooth;
     --hovver-color: red;
     }
 
 body {
-   max-width: 1100px;
+   max-width: 1170px;
    margin: auto;
  }
 
@@ -28,13 +28,7 @@ header nav .logo {
 	justify-content: center;
 	padding: 0px;
 	margin-left: 20px;
-
-}
-header nav .logo img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+	}
 
 header nav .menu {
    display: flex;
@@ -65,11 +59,15 @@ header nav .menu a:hover {
 
 main .baner img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 main .baner {
 	background-color: #fafafa;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 main .baner {
@@ -113,7 +111,41 @@ main .baner-text input:active {
 	top:1px;
 }
 
+main .about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
 
+}
+main .about .about-me {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr:
+	justify-items: start;
+	align-items: center;
+	margin: 50px;
+}
+
+main .about .about-me ul {
+
+	line-height: 30px;
+}
+main .about .about-me p {
+	text-align: justify;
+
+}
+main .video {
+	background-color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+main .video iframe {
+	display: block;
+	width: 100%;
+	align-items: center;
+
+}
 
 
 
