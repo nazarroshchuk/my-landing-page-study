@@ -1,62 +1,97 @@
-
-
 @media screen and (max-width: 768px) {
-header nav {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
+    header nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header nav .menu {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+    }
+    main .baner {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    main .baner-text input {
+        font-size: 90%;
+        width: 50%;
+    }
+    main .about {
+        display: grid;
+        grid-template-columns: 1fr;
+      
+    }
+    main .about .about-me {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+     main .why-learn {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+     main .what-know {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
 
-header nav .menu {
-	display: flex;
-	align-items: stretch;
-	flex-direction: column;
+    main .what-know #learning {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     
+    }
+     main .notice {
+        display: grid;
+        grid-template-columns: 1fr;
+     
+    }
 }
-
-main .baner {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 80%;
-}
-main .baner-text input{
-	font-size:90%;
-	width: 50%;
-}
-main .about {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 80%;
-}
-
-main .about .about-me {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
-
-}
-}
-
 
 @media screen and (max-width: 375px) {
-header nav .menu {
-    font-size: 70%;
- }
-main .baner .baner-text {
-		grid-template-columns: 1fr;
-		margin:20px;
-		font-size: 70%;
-}
+    h1, h2, h3, p, ul, li {
+        font-size: 95%;
+    }
 
-main .about {
-	display: grid;
-	grid-template-columns: 1fr;
+    header nav .menu {
+        font-size: 70%;
+    }
+    main .baner .baner-text {
+        grid-template-columns: 1fr;
+        margin: 20px;
+       
+    }
+    main .about {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    main .about .about-me {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    main .why-learn {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
 
-}
-
-main .about .about-me {
-	display: grid;
-	grid-template-columns: 1fr;
-
-}
+     main .what-know {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    main .what-know #learning {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 25px;
+        
+    }
+    main .notice {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
 }

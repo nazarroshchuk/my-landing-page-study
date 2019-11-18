@@ -1,111 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <Link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/index-layout.css">
-        <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
-        <title>Навчайся вже сьогодні</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="logo">
-                    <img class="nr-logo" src="img/logo.png" alt="Логотип">
-                </div>
-                    <ul class="menu">
-                        <li>
-                            <a href="#about-me">Про мене</a>
-                        </li>
-                        <li>
-                            <a href="#learning">Навчання</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Контакти</a>
-                        </li>
-                    </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="baner">
-                <img src="img/main-colage.jpg" alt="Фото слайдер">
-                <div class="baner-text">
-                    <h1>Хочеш робити круті фото?</h1>
-                    <h3>Я допоможу тобі!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate
-                    eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt
-                    id.</p>
-                    <input type="button" name="write-to-me" value="Написати мені">
-                </div>
-            </section>
 
-            <section class="about">
-                <div class="about-me" id="about-me">
-                    <h1>Про мене.</h1>
-                    <ul>
-                        <li class="ul-lh">Величезний досвід практикування у фотографії </li>
-                        <li>Більше 6-ти років є викладачем у фотошколі </li>
-                        <li>Засновник фотостудії Veles-Studio </li>
-                    </ul>
-                    <p>Привіт! Я Назар, професійній фотограф. Більше 10-ти років я працюю у сфері
-                    комерційної фотографії. Попри моє захоплення фотографією, дуже люблю навчати цього
-                    людей, ділитись досвідом та допомагати кожному знайти  свій шлях до фотографії!</p>
-                </div>
-                <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5cyoYqZxmQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </section>
-            <!--
-            <section>
-                <div>
-                    <h1>Чому потрібно вчитись?</h1>
-                    <p>Навіщо займатись англійською з репетитором, якщо є підручник? Цікаве питання - правда?</p>
-                </div>
-                <div>
-                    <ul>
-                        <li>У тебе давно є фотоапарат, який лежить у запиленій шухляді та він лякає тебе безліччю кнопок, навіть більше ніж панель керування Boing-747.</li>
-                        <li>Ти просто хочеш робити кльові фото для Instagram та Facebook, навіть на своєму iPhone . </li>
-                        <li>У тебе є амбіції та бажання стати справжнім професійним фотографом!</li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <div id="learning">
-                    <h1>Що ти будеш знати?</h1>
-                    <figure>
-                        <img src="img/settings.jpg" alt="Фото налаштування фотокамери">
-                        <figcaption>Усі технічні аспекти у фотографії: налаштування камери, який обєктив  обрати та ін . </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="img/composition-color.jpg" alt="Композиція та колір у фотографії">
-                        <figcaption>Композиція, колір, світло - в основі кожної фотографії .</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="img/adjustment-photo.jpg" alt="Обробка фотографій">
-                        <figcaption>Обробка фотографій у графічніх редакторах Capture One та Photoshop .</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="img/studio.jpg" alt="Студійна зйомка">
-                        <figcaption>Студійна фотографія, все про техніку та зйомку .</figcaption>
-                    </figure>
-                </div>
-            </section>
-            <section>
-                <div id="contact">
-                    <h1>Залишіть заявку!</h1>
-                    <form action="https://formspree.io/meqjlyjn" method="POST">
-                        <input type="text" name="name" placeholder="Ім'я">
-                        <input type="email" name="email" placeholder="Email">
-                        <input type="submit" value="Надіслати">
-                    </form>
-                </div>
-                <div>
-                    <p>Індивідуальне навчання дає змогу швидко та якісно освоїти всі аспекти успішної зйомки,
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <title>Навчайся вже сьогодні</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="nr-logo" src="img/logo.png" alt="Логотип">
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#about-me">Про мене</a>
+                </li>
+                <li>
+                    <a href="#learning">Навчання</a>
+                </li>
+                <li>
+                    <a href="#contact">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="baner">
+            <img src="img/main-colage.jpg" alt="Фото слайдер">
+            <div class="baner-text">
+                <h1>Хочеш робити круті фото?</h1>
+                <h3>Я допоможу тобі!</h3>
+                <p>Навчання буде корисним для фотографів початківців, а також для практикуючих фотографів.
+                    Ви збагнете багато нового і навчитесь дивитись фотозйомку та обробку під іншим кутом.
+                    Під час навчання ми глибоко зануримось у теоретичні та технічні аспекти фотозйомки,
+                    теорії кольорознавства та обробки. Навчання дає відповіді на всі питання та пробіли,
+                    які неодмінно цікавлять фотографа.
+                </p>
+                <input type="button" name="write-to-me" value="Написати мені">
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-me" id="about-me">
+                <h2>Про мене.</h2>
+                <ul>
+                    <li class="ul-lh">Величезний досвід практикування у фотографії </li>
+                    <li>Більше 6-ти років є викладачем у фотошколі </li>
+                    <li>Засновник фотостудії Veles-Studio </li>
+                </ul>
+                <p>Привіт! Я Назар, професійній фотограф. Більше 10-ти років я працюю у сфері комерційної фотографії.
+                    Попри моє захоплення фотографією, дуже люблю навчати цього людей, ділитись досвідом та допомагати
+                    кожному знайти свій шлях до фотографії!</p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5cyoYqZxmQ0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="why-learn">
+            <div class="why-learn-one">
+                <h2>Чому потрібно вчитись?</h2>
+                <p>Навіщо займатись англійською з репетитором, якщо є підручник? Цікаве питання - правда?</p>
+            </div>
+            <div class="why-learn-list">
+                <img src="img/checked.png" alt="">
+                <p>У тебе давно є фотоапарат, який лежить у запиленій шухляді та він лякає тебе безліччю кнопок,
+                    навіть більше ніж панель керування Boing-747.</p>
+                <img src="img/checked.png" alt="">
+                <p>Ти просто хочеш робити кльові фото для Instagram та Facebook, навіть на своєму iPhone . </p>
+                <img src="img/checked.png" alt="">
+                <p>У тебе є амбіції та бажання стати справжнім професійним фотографом!</p>
+            </div>
+        </section>
+
+        <section class="what-know">
+            <h2>Що ти будеш знати?</h2>
+            <div id="learning">
+                <figure>
+                    <img src="img/settings.jpg" alt="Фото налаштування фотокамери">
+                    <figcaption>Усі технічні аспекти у фотографії: налаштування камери, який обєктив обрати та ін .
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/composition-color.jpg" alt="Композиція та колір у фотографії">
+                    <figcaption>Композиція, колір, світло - в основі кожної фотографії .</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/adjustment-photo.jpg" alt="Обробка фотографій">
+                    <figcaption>Обробка фотографій у графічніх редакторах Capture One та Photoshop .</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/studio.jpg" alt="Студійна зйомка">
+                    <figcaption>Студійна фотографія, все про техніку та зйомку .</figcaption>
+                </figure>
+            </div>
+
+        </section>
+        <section class="notice">
+            <div id="contact">
+                <h2>Залишіть заявку!</h2>
+                <form action="https://formspree.io/meqjlyjn" method="POST">
+                    <input type="text" name="name" placeholder="Ім'я">
+                    <br>
+                    <input type="email" name="email" placeholder="Email">
+                    <br>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Надіслати" id="send">
+                </form>
+            </div>
+            <div class="social">
+                <p>Індивідуальне навчання дає змогу швидко та якісно освоїти всі аспекти успішної зйомки,
                     програма навчання є індівидуальною та враховує рівень та потреби кожного!</p>
-                </div>
-                <div>
+                <div class="social-link">
                     <a href="https://www.facebook.com/nazarroshchuk">
                         <img width="50" height="50" src="img/facebook.png" alt="Посилання на Facebook">
                     </a>
@@ -113,11 +127,12 @@
                         <img width="50" height="50" src="img/instagram.png" alt="Посилання на Instagram">
                     </a>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <h6>created by Nazar Roshchuk</h6>
-        </footer>
-    -->
-    </body>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h6>created by Nazar Roshchuk</h6>
+    </footer>
+</body>
+
 </html>
