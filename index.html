@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index-layout.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
     <title>Навчайся вже сьогодні</title>
 </head>
@@ -34,9 +39,11 @@
         <section class="baner">
             <img src="img/main-colage.jpg" alt="Фото слайдер">
             <div class="baner-text">
-                <h1>Хочеш робити круті фото?</h1>
-                <h3>Я допоможу тобі!</h3>
-                <p>Навчання буде корисним для фотографів початківців, а також для практикуючих фотографів.
+                <h1 class="wow fadeInLeft" data-wow-duration="1.5s">Хочеш робити круті фото?</h1>
+                <h3 class="wow fadeInRight" data-wow-duration="1.5s">Я допоможу тобі!</h3>
+                <p class="wow fadeInUp" data-wow-duration="1.5s">Навчання буде корисним для фотографів початківців, а
+                    також для практикуючих
+                    фотографів.
                     Ви збагнете багато нового і навчитесь дивитись фотозйомку та обробку під іншим кутом.
                     Під час навчання ми глибоко зануримось у теоретичні та технічні аспекти фотозйомки,
                     теорії кольорознавства та обробки. Навчання дає відповіді на всі питання та пробіли,
@@ -46,7 +53,7 @@
             </div>
         </section>
 
-        <section class="about">
+        <section class="about wow slideInUp">
             <div class="about-me" id="about-me">
                 <h2>Про мене.</h2>
                 <ul>
@@ -65,7 +72,7 @@
             </div>
         </section>
 
-        <section class="why-learn">
+        <section class="why-learn wow slideInUp">
             <div class="why-learn-one">
                 <h2>Чому потрібно вчитись?</h2>
                 <p>Навіщо займатись англійською з репетитором, якщо є підручник? Цікаве питання - правда?</p>
@@ -81,7 +88,7 @@
             </div>
         </section>
 
-        <section class="what-know">
+        <section class="what-know wow slideInUp">
             <h2>Що ти будеш знати?</h2>
             <div id="learning">
                 <figure>
@@ -104,7 +111,7 @@
             </div>
 
         </section>
-        <section class="notice">
+        <section class="notice wow slideInUp">
             <div id="contact">
                 <h2>Залишіть заявку!</h2>
                 <form action="https://formspree.io/meqjlyjn" method="POST">
