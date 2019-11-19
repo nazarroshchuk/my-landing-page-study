@@ -11,8 +11,7 @@
     }
     main .baner {
         display: grid;
-        grid-template-columns: 1fr;
-       
+        grid-template-columns: 1fr; 
     }
     main .baner-text input {
         font-size: 90%;
@@ -21,7 +20,6 @@
     main .about {
         display: grid;
         grid-template-columns: 1fr;
-      
     }
     main .about .about-me {
         display: grid;
@@ -29,24 +27,23 @@
     }
      main .why-learn {
         display: grid;
-        grid-template-columns: 1fr;
-       
+        grid-template-columns: 1fr; 
     }
      main .what-know {
         display: grid;
-        grid-template-columns: 1fr;
-       
+        grid-template-columns: 1fr; 
     }
 
     main .what-know #learning {
         display: grid;
         grid-template-columns: 1fr 1fr;
-     
     }
      main .notice {
         display: grid;
         grid-template-columns: 1fr;
-     
+    }
+    main .baner-text input  {
+        align-self:center;  
     }
 }
 
@@ -54,14 +51,15 @@
     h1, h2, h3, p, ul, li {
         font-size: 95%;
     }
-
     header nav .menu {
         font-size: 70%;
     }
     main .baner .baner-text {
         grid-template-columns: 1fr;
         margin: 20px;
-       
+    }
+    main .baner .baner-text p {
+        margin: 10px 0px 20px 0px ;    
     }
     main .about {
         display: grid;
@@ -69,29 +67,25 @@
     }
     main .about .about-me {
         display: grid;
-        grid-template-columns: 1fr;
-       
+        grid-template-columns: 1fr; 
     }
     main .why-learn {
         display: grid;
-        grid-template-columns: 1fr;
-        
+        grid-template-columns: 1fr;   
     }
 
      main .what-know {
         display: grid;
         grid-template-columns: 1fr;
-        
     }
     main .what-know #learning {
         display: grid;
         grid-template-columns: 1fr;
-        grid-row-gap: 25px;
-        
+        grid-row-gap: 25px;  
     }
     main .notice {
         display: grid;
-        grid-template-columns: 1fr;
-        
+        grid-template-columns: 1fr;  
     }
+    
 }
